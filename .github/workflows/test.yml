@@ -8,4 +8,12 @@ jobs:
   steps:
    - name: flowers
      run: echo "i like red rose"
+   - name: fruits
+     run: 
+      echo "apple"
+      echo "mango"
+       
+          
+   
+  
  

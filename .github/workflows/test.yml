@@ -1,11 +1,11 @@
-name:
+name: test
 on:
  push:
   branches: [develop]
 jobs:
  GitHubActions:
   runs-on: windows-latest
-   steps:
-    -name: flowers
+  steps:
+   - name: flowers
      run: echo "i like red rose"
  

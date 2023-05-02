@@ -9,9 +9,11 @@ jobs:
    - name: flowers
      run: echo "i like red rose"
    - name: fruits
-     run: 
-      echo "apple"
-      echo "mango"
+     run: echo "apple is in red colour"
+   - name: person
+     run: echo" my name is swarupa Rani"
+   
+   
        
           
    

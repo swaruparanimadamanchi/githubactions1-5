@@ -3,17 +3,17 @@ on:
  push:
   branches: [develop]
 jobs:
- mydetails
- runs-on: windows-latest
- steps:
-  -name:
-   run: |
-    echo "my surname is madamanchi"
-    echo "my name is swarupa Rani"
- jobs:
-  edudetails
+ mydetails:
   runs-on: windows-latest
   steps:
-   - myeducation:
+   - name: person-details
+     run: |
+       echo "my surname is madamanchi"
+       echo "my name is swarupa Rani"
+jobs:
+ edudetails:
+  runs-on: windows-latest
+  steps:
+   - name: myeducation
      run: "i completed masters in computer applications"  
    

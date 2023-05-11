@@ -2,6 +2,7 @@ name: test
 on:
  push:
   branches: [develop]
+ workflow_dispatch: 
 jobs:
  GitHubActions:
   runs-on: windows-latest
